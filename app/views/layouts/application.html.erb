@@ -42,6 +42,9 @@
                   <span>ログイン</span>
                 </a>
               </li>
+              <li class="">
+              <%= link_to 'マイページ', user_path(current_user.id) %>
+            </li>
             </ul>
           </div>
         </div>
@@ -61,7 +64,6 @@
               善良な市民同士で無差別に食欲を煽るSNS
           </p>
               <%= image_tag('logo-white.png') %>
-              
             </div>
           </div>
           <div class="col-md-2">
